@@ -11,6 +11,7 @@ while (sum < 50) {
   const n = parseInt(prompt("Insert a number:"));
   container.push(n);
   sum += n;
+  console.log(sum);
   console.log("Pushed number:" + " " + n);
   console.log(container);
 }
